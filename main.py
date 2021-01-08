@@ -3,6 +3,7 @@
 
 def main():
     """Função principal que será rodada quando o script for passado para o interpretador."""
+    
     valor = float(input('Digite um valor entre 0.00 e 10.00: '))
 
     total = valor
@@ -13,7 +14,7 @@ def main():
       if total >= moeda:
         total -= moeda
         totmoe +=  1
-    else
+    else:
       if totmoe > 0:
         print('São necessárias: ')
         print(f'Total de {totmoe} moedas de R${moeda}')
